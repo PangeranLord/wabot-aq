@@ -60,9 +60,9 @@ const defaultMenu = {
 │
 │ Uptime : *%uptime (%muptime)*
 │ Database : %rtotalreg of %totalreg
-│ Github :
-│ %github
-│
+│ Instagram :
+│ https://instagram.com/abengrndna_
+│ follow ig pangeran👆
 │
 │ Group 1 :
 │ ${gc1}
