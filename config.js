@@ -79,8 +79,8 @@ fs.watchFile(file, () => {
 })
 
 // Tambahan By Me (RyuuZeyy)
-gc1 = 'https://chat.whatsapp.com/FJkbQjpewltErmQRwzC9rj'
-gc2 = 'https://chat.whatsapp.com/HTcmEqjQeu1GMN2xN210QJ'
+gc1 = 'https://chat.whatsapp.com/CqEo783CDhiC5LbQyta1Kv'
+gc2 = 'https://chat.whatsapp.com/CqEo783CDhiC5LbQyta1Kv'
 gc3 = 'https://chat.whatsapp.com/I3yAMaBNA9X63FspQ5V46N'
 namaig = 'https://instagram.com/abengrndna_'
 linkf = gc1
