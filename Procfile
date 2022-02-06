@@ -1,2 +1,1 @@
-worker: node . --autoread
- 
+worker : npm i ffmepg && npm start
