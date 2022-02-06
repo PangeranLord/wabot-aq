@@ -20,10 +20,10 @@ runtime = process.uptime()
 teks = `${kyun(runtime)}`
 run = `${kyun(runtime)}`
 
-global.owner = ['7922416516']// Put your number here
+global.owner = ['6287832147584']// Put your number here
 
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.mods = ['6287832147584'] // Want some help?
+global.prems = ['6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -49,8 +49,8 @@ const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
 // var sticker_name = 'I hope you\'re fine'
 //var sticker_author = 'Nurutomo'
-var sticker_name = 'X - RyuuZeyy' // ganti aja
-var sticker_author = '' // ganti aja
+var sticker_name = '©Pangeran' // ganti aja
+var sticker_author = 'ig:abengrndna_' // ganti aja
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -82,16 +82,16 @@ fs.watchFile(file, () => {
 gc1 = 'https://chat.whatsapp.com/FJkbQjpewltErmQRwzC9rj'
 gc2 = 'https://chat.whatsapp.com/HTcmEqjQeu1GMN2xN210QJ'
 gc3 = 'https://chat.whatsapp.com/I3yAMaBNA9X63FspQ5V46N'
-namaig = 'https://instagram.com/bah.raid'
+namaig = 'https://instagram.com/abengrndna_'
 linkf = gc1
 linkff = namaig
-namabot = 'ChokiBot'
-namagithub = 'https://github.com/RTeam1'
+namabot = 'PangeranBotZ'
+namagithub = 'donasi dulu baru gua kasih SC nya!'
 gcid = '972502255007-1406453544'
-footer = 'ChokiBot'
+footer = 'Pangeran'
 lolkey = 'rey2k21'
-global.wait = 'Tunggu Sebentar'
-bc = 'Choki'
+global.wait = 'Tunggu Sebentar Jamet!'
+bc = 'Pangeran'
 titler = '𝙍𝙚𝙖𝙡 𝙁𝙖𝙢𝙨 𝙆𝙞𝙡𝙡𝙚𝙧'
 body = run
 kasihcaption = `©${namaig}\n\n©${namagithub}`
