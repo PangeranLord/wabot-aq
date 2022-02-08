@@ -400,10 +400,10 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
+    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_ dasar atheisme',
+    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_! Ngentod',
+    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_! Goblok',
+    premium: 'Perintah ini hanya untuk member _*Premium*_! Sayang',
     group: 'Perintah ini hanya dapat digunakan di grup!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
