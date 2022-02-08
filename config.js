@@ -1,6 +1,6 @@
 let fs = require('fs')
 let chalk = require('chalk')
-let tum1 = fs.readFileSync('./gambar1.jpeg')
+let tum1 = fs.readFileSync('./IMG-20220207-WA0216.jpg')
 let tum2 = fs.readFileSync('./gambar2.jpeg')
 //let tum3 = fs.readFileSync('./gambar3.jpeg')
 const { MessageType} = require("@adiwajshing/baileys")
