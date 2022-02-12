@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
   if (!args[0]) throw 'Uhm...username nya mana?'
   let res = await fetch(global.API('xteam', '/dl/igstalk', {
     nama: args[0]
-  }, 'APIKEY'))
+  }, '9db5a5373433c015'))
   let json = await res.json()
   if (res.status != 200) throw json
   if (json.result.error) throw json.result.message
@@ -35,7 +35,8 @@ ${biography}${external_url ? '\n*External URL:* ' + external_url : ''}
 }
 handler.help = ['igstalk'].map(v => v + ' <username>')
 handler.tags = ['downloader']
-
 handler.command = /^(igstalk)$/i
+handler.limit = true
+handler.premium = true
 
 module.exports = handler
