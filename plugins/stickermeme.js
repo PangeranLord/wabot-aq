@@ -1,6 +1,5 @@
 const uploadImage = require('../lib/uploadImage')
-const { MessageType } = require('@adiwajshing/baileys')
-const { sticker } = require('../lib/sticker')
+const { sticker5 } = require('../lib/sticker')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let [atas, bawah] = text.split`|`
@@ -14,11 +13,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     stiker = await sticker5(false, meme, packname, author)
     if (stiker) await conn.sendFile(m.chat, stiker, '', '', m, 0, { asSticker: true })
 }
-
-handler.help = ['smeme <teks atas>|<teks bawah>']
+handler.help = ['stikermeme <teks atas>|<teks bawah>']
 handler.tags = ['sticker']
-handler.command = /^(smeme)$/i
+handler.command = /^(s(tic?ker)?meme)$/i
 
-handler.limit = true
+handler.limit = 1
 
-module.exports = handler
+module.exports = handler 
