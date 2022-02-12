@@ -48,7 +48,7 @@ if (stickerpack.spackname == '') {
 // var sticker_name = 'I hope you\'re fine'
 //var sticker_author = 'Nurutomo'
 var sticker_name = '©PangeranXcipuyy' // ganti aja
-var sticker_author = 'ig @abengrndna_' // ganti aja
+var sticker_author = '' // ganti aja
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
