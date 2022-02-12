@@ -1,4 +1,5 @@
 const uploadImage = require('../lib/uploadImage')
+const { MessageType } = require('@adiwajshing/baileys')
 const { sticker5 } = require('../lib/sticker')
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
