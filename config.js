@@ -20,7 +20,7 @@ runtime = process.uptime()
 teks = `${kyun(runtime)}`
 run = `${kyun(runtime)}`
 
-global.owner = ['6287832147584','6288286056744','6287832147584','6288286056744']// Put your number here
+global.owner = ['6287832147584','6285717616804','6287832147584','6285717616804']// Put your number here
 global.mods = ['6287832147584'] // Want some help?
 global.prems = ['6287832147584'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -49,7 +49,7 @@ if (stickerpack.spackname == '') {
 // var sticker_name = 'I hope you\'re fine'
 //var sticker_author = 'Nurutomo'
 var sticker_name = '©Pangeran' // ganti aja
-var sticker_author = 'ig:abengrndna_' // ganti aja
+var sticker_author = 'Cipuyy' // ganti aja
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -87,7 +87,7 @@ linkff = namaig
 namabot = 'PangeranBotZ'
 namagithub = 'donasi dulu baru gua kasih SC nya!'
 gcid = '972502255007-1406453544'
-footer = '©Pangeran'
+footer = '©Pangeran×Cipuyy'
 lolkey = 'rey2k21'
 global.wait = 'Tunggu Sebentar Jamet!'
 bc = 'Pangeran'
