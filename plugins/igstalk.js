@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) throw `contoh:\n${usedPrefix + command} pangerann21_`
 
-  let res = await fetch(global.API('pencaricode', '/igs', { username: args[0] }))
+  let res = await fetch(global.API('pencarikode', '/igs', { username: args[0] }))
   if (!res.ok) throw eror
   let json = await res.json()
   if (json.status != 200) throw json
