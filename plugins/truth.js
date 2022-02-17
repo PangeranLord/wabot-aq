@@ -1,8 +1,8 @@
 let handler  = async (m, { conn }) => {
   conn.reply(m.chat,`“${pickRandom(global.truth)}”`, m)
 }
-handler.help = ['truth', 'dare']
-handler.tags = ['quotes']
+handler.help = ['truth']
+handler.tags = ['fun']
 handler.command = /^(truth)$/i
 handler.limit = true
 
