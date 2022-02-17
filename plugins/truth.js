@@ -3,7 +3,7 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['truth']
 handler.tags = ['fun']
-handler.command = /^(truth)$/i
+handler.command = /^(truth|kebenaran|kejujuran)$/i
 handler.limit = true
 
 module.exports = handler
