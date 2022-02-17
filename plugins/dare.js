@@ -22,7 +22,9 @@ let handler = async (m, { conn }) => {
 "Kamu harus bagi bagi limit, minimal 2 setiap pengguna",
 "Chatingan selama 1 jam harus 4l4Y 8AN93T",
 "Bilang ke mantan _Gua Masih Sayang Lu_",
-"VN desah ketemen Cewe/Cowo Kontak Lu!"
+"VN desah ketemen Cewe/Cowo Kontak Lu!",
+"Post foto mantan lu, jangan privasi pacar lu yg sekarang!",
+"Bilang _*ILoveyou*_ Ke bot:)"
 ] // tambahin kata kata sendiri 
 	conn.sendFile(m.chat, img, 'maker.jpeg', `*DARE*\n\n“${pickRandom(dares)}”`, m, false, { thumbnail: Buffer.alloc(0) })
 }
