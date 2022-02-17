@@ -1,4 +1,5 @@
 const { igstalk } = require('../lib/scrape')
+let fetch = require('node-fetch')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) throw `contoh:\n${usedPrefix + command} pangerann21_`
 
