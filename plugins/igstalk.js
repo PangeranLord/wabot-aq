@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   conn.sendFile(m.chat, json.data.profilehd, 'eror.jpg', `*Nama:* ${json.data.fullname}\n*Bio:* ${json.data.bio}\n*Followers:* ${json.data.follower}\n*Following:* ${json.data.following}\n*Posts:* ${json.data.timeline}\n*Private:* ${json.data.private ? 'Ya' : 'Tidak'}\n\nhttp://instagram.com/pangerann21_`, m, 0, { thumbnail: await (await fetch(json.data.profilehd)).buffer() })
 }
 handler.help = ['igstalk <username>']
-handler.tags = ['tools']
+handler.tags = ['downloader']
 handler.command = /^(igstalk)$/i
 handler.limit = true
 module.exports = handler
