@@ -61,7 +61,7 @@ const defaultMenu = {
 │ Uptime : *%uptime (%muptime)*
 │ Database : %rtotalreg of %totalreg
 │ Instagram :
-│ https://instagram.com/abengrndna_
+│ https://instagram.com/pangerann21_
 │ follow ig pangeran👆
 │
 │ Group 1 :
