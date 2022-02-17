@@ -29,15 +29,17 @@ global.APIs = { // API Prefix
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  pencarikode: 'https://api.chipa.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  fxc7: 'https://api-xcoders.xyz',
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
+  'https://api-xcoders.xyz': '5QsBNSKXXF',
   'https://api.xteam.xyz': '4174b0fba23611d9',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
+  'https://api.chipa.xyz': 'V1DFQVSDQ27J629Y5K65FJU0',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
