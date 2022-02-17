@@ -1,4 +1,3 @@
-let limit = 30
 const { servers, yta, ytv } = require('../lib/y2mate')
 let yts = require('yt-search')
 let fetch = require('node-fetch')
@@ -38,7 +37,7 @@ handler.tags = ['downloader']
 handler.command = /^(p|play)$/i
 
 handler.exp = 0
-handler.limit = 5
+handler.limit = true
+handler.premium = true
 
 module.exports = handler
-
