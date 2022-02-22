@@ -49,8 +49,8 @@ const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
 // var sticker_name = 'I hope you\'re fine'
 //var sticker_author = 'Nurutomo'
-var sticker_name = '©PangeranXcipuyy' // ganti aja
-var sticker_author = '' // ganti aja
+var sticker_name = '©PangeranBotZ' // ganti aja
+var sticker_author = 'ig: abengrndna_' // ganti aja
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -85,10 +85,10 @@ gc3 = ''
 namaig = 'https://instagram.com/abengrndna_'
 linkf = gc1
 linkff = namaig
-namabot = 'Pangeran×Cipuyy'
+namabot = 'PangeranBotZ'
 namagithub = 'donasi dulu baru gua kasih SC nya!'
 gcid = '972502255007-1406453544'
-footer = '©Pangeran×Cipuyy'
+footer = '©PangeranBotZ'
 lolkey = 'rey2k21'
 global.wait = 'Tunggu Sebentar Jamet!'
 bc = 'Pangeran'
